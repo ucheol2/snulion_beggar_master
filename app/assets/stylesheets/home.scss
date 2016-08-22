@@ -1,3 +1,31 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: image-url('beggar.png') no-repeat center center fixed {
+    size: contain;
+  }
+  .wrapper {
+    height: 100%;
+    text-align: center;
+    background: rgba(255,255,255,0.8);
+    h1 {
+      margin: 0 0 10% 0;
+      padding: 2%;
+      text-align: center;
+    }
+    a {
+      color: #000;
+      text-decoration: none;
+      img {
+        height: 4rem;
+        width: 4rem;
+      }
+    }
+  }
+}
