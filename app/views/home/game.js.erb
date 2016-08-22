@@ -1,0 +1,3 @@
+console.log('wow')
+$('#score').html('Score: <%= @score %>');
+$('.game_field').html('<%= escape_javascript render(partial: 'coin', locals: {score: @score+1, left: @left, top: @top}) %>');
